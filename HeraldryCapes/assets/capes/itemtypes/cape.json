@@ -13,6 +13,7 @@
 
         "HeraldryProperties": {
             "ConsumeLitres": 0.01,
+            "AvailableShapes": ["pennant", "swallowtail_pennant", "tapering_pennant", "swallowtail", "double_swallowtail", "gonfalon", "double_notched", "quadruple_notched", "roundcorners", "rounded_notch", "aged1", "aged2", "aged3", "aged4", "aged5"],
             "AvailableColors": ["black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"],
             "AvailablePatterns": [
                 "border",
@@ -104,6 +105,155 @@
                     "layer1-*": ["capes:item-cape-{layer1}"]
                 },
                 "description": {
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*::layer5-*::layer6-*::layer7-*::layer8-*": [
+                        //
+                        "heraldry:shapepattern",
+                        "heraldry:shapepattern-{shape}",
+                        "\n",
+                        "heraldry:layer1",
+                        "heraldry:pattern-{layer1}",
+                        "\n",
+                        "heraldry:layer2",
+                        "heraldry:pattern-{layer2}",
+                        "\n",
+                        "heraldry:layer3",
+                        "heraldry:pattern-{layer3}",
+                        "\n",
+                        "heraldry:layer4",
+                        "heraldry:pattern-{layer4}",
+                        "\n",
+                        "heraldry:layer5",
+                        "heraldry:pattern-{layer5}",
+                        "\n",
+                        "heraldry:layer6",
+                        "heraldry:pattern-{layer6}",
+                        "\n",
+                        "heraldry:layer7",
+                        "heraldry:pattern-{layer7}",
+                        "\n",
+                        "heraldry:layer8",
+                        "heraldry:pattern-{layer8}"
+                    ],
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*::layer5-*::layer6-*::layer7-*": [
+                        //
+                        "heraldry:shapepattern",
+                        "heraldry:shapepattern-{shape}",
+                        "\n",
+                        "heraldry:layer1",
+                        "heraldry:pattern-{layer1}",
+                        "\n",
+                        "heraldry:layer2",
+                        "heraldry:pattern-{layer2}",
+                        "\n",
+                        "heraldry:layer3",
+                        "heraldry:pattern-{layer3}",
+                        "\n",
+                        "heraldry:layer4",
+                        "heraldry:pattern-{layer4}",
+                        "\n",
+                        "heraldry:layer5",
+                        "heraldry:pattern-{layer5}",
+                        "\n",
+                        "heraldry:layer6",
+                        "heraldry:pattern-{layer6}",
+                        "\n",
+                        "heraldry:layer7",
+                        "heraldry:pattern-{layer7}"
+                    ],
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*::layer5-*::layer6-*": [
+                        //
+                        "heraldry:shapepattern",
+                        "heraldry:shapepattern-{shape}",
+                        "\n",
+                        "heraldry:layer1",
+                        "heraldry:pattern-{layer1}",
+                        "\n",
+                        "heraldry:layer2",
+                        "heraldry:pattern-{layer2}",
+                        "\n",
+                        "heraldry:layer3",
+                        "heraldry:pattern-{layer3}",
+                        "\n",
+                        "heraldry:layer4",
+                        "heraldry:pattern-{layer4}",
+                        "\n",
+                        "heraldry:layer5",
+                        "heraldry:pattern-{layer5}",
+                        "\n",
+                        "heraldry:layer6",
+                        "heraldry:pattern-{layer6}"
+                    ],
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*::layer5-*": [
+                        //
+                        "heraldry:shapepattern",
+                        "heraldry:shapepattern-{shape}",
+                        "\n",
+                        "heraldry:layer1",
+                        "heraldry:pattern-{layer1}",
+                        "\n",
+                        "heraldry:layer2",
+                        "heraldry:pattern-{layer2}",
+                        "\n",
+                        "heraldry:layer3",
+                        "heraldry:pattern-{layer3}",
+                        "\n",
+                        "heraldry:layer4",
+                        "heraldry:pattern-{layer4}",
+                        "\n",
+                        "heraldry:layer5",
+                        "heraldry:pattern-{layer5}"
+                    ],
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*": [
+                        //
+                        "heraldry:shapepattern",
+                        "heraldry:shapepattern-{shape}",
+                        "\n",
+                        "heraldry:layer1",
+                        "heraldry:pattern-{layer1}",
+                        "\n",
+                        "heraldry:layer2",
+                        "heraldry:pattern-{layer2}",
+                        "\n",
+                        "heraldry:layer3",
+                        "heraldry:pattern-{layer3}",
+                        "\n",
+                        "heraldry:layer4",
+                        "heraldry:pattern-{layer4}"
+                    ],
+                    "shape-*::layer1-*::layer2-*::layer3-*": [
+                        //
+                        "heraldry:shapepattern",
+                        "heraldry:shapepattern-{shape}",
+                        "\n",
+                        "heraldry:layer1",
+                        "heraldry:pattern-{layer1}",
+                        "\n",
+                        "heraldry:layer2",
+                        "heraldry:pattern-{layer2}",
+                        "\n",
+                        "heraldry:layer3",
+                        "heraldry:pattern-{layer3}"
+                    ],
+                    "shape-*::layer1-*::layer2-*": [
+                        //
+                        "heraldry:shapepattern",
+                        "heraldry:shapepattern-{shape}",
+                        "\n",
+                        "heraldry:layer1",
+                        "heraldry:pattern-{layer1}",
+                        "\n",
+                        "heraldry:layer2",
+                        "heraldry:pattern-{layer2}"
+                    ],
+                    "shape-*::layer1-*": [
+                        //
+                        "heraldry:shapepattern",
+                        "heraldry:shapepattern-{shape}",
+                        "\n",
+                        "heraldry:layer1",
+                        "heraldry:pattern-{layer1}",
+                        "\n"
+                    ],
                     "layer1-*::layer2-*::layer3-*::layer4-*::layer5-*::layer6-*::layer7-*::layer8-*": [
                         //
                         "heraldry:layer1",
@@ -231,6 +381,106 @@
                     ]
                 },
                 "textures": {
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*::layer5-*::layer6-*::layer7-*::layer8-*": {
+                        "pattern": {
+                            "base": "capes:item/cape/pattern/{layer1}",
+                            "blendedOverlays": [
+                                //
+                                { "base": "capes:item/cape/pattern/{layer2}" },
+                                { "base": "capes:item/cape/pattern/{layer3}" },
+                                { "base": "capes:item/cape/pattern/{layer4}" },
+                                { "base": "capes:item/cape/pattern/{layer5}" },
+                                { "base": "capes:item/cape/pattern/{layer6}" },
+                                { "base": "capes:item/cape/pattern/{layer7}" },
+                                { "base": "capes:item/cape/pattern/{layer8}" },
+                                { "base": "capes:item/cape/shapepattern/{shape}", "blendMode": "OverlayCutout" }
+                            ]
+                        }
+                    },
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*::layer5-*::layer6-*::layer7-*": {
+                        "pattern": {
+                            "base": "capes:item/cape/pattern/{layer1}",
+                            "blendedOverlays": [
+                                //
+                                { "base": "capes:item/cape/pattern/{layer2}" },
+                                { "base": "capes:item/cape/pattern/{layer3}" },
+                                { "base": "capes:item/cape/pattern/{layer4}" },
+                                { "base": "capes:item/cape/pattern/{layer5}" },
+                                { "base": "capes:item/cape/pattern/{layer6}" },
+                                { "base": "capes:item/cape/pattern/{layer7}" },
+                                { "base": "capes:item/cape/shapepattern/{shape}", "blendMode": "OverlayCutout" }
+                            ]
+                        }
+                    },
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*::layer5-*::layer6-*": {
+                        "pattern": {
+                            "base": "capes:item/cape/pattern/{layer1}",
+                            "blendedOverlays": [
+                                //
+                                { "base": "capes:item/cape/pattern/{layer2}" },
+                                { "base": "capes:item/cape/pattern/{layer3}" },
+                                { "base": "capes:item/cape/pattern/{layer4}" },
+                                { "base": "capes:item/cape/pattern/{layer5}" },
+                                { "base": "capes:item/cape/pattern/{layer6}" },
+                                { "base": "capes:item/cape/shapepattern/{shape}", "blendMode": "OverlayCutout" }
+                            ]
+                        }
+                    },
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*::layer5-*": {
+                        "pattern": {
+                            "base": "capes:item/cape/pattern/{layer1}",
+                            "blendedOverlays": [
+                                //
+                                { "base": "capes:item/cape/pattern/{layer2}" },
+                                { "base": "capes:item/cape/pattern/{layer3}" },
+                                { "base": "capes:item/cape/pattern/{layer4}" },
+                                { "base": "capes:item/cape/pattern/{layer5}" },
+                                { "base": "capes:item/cape/shapepattern/{shape}", "blendMode": "OverlayCutout" }
+                            ]
+                        }
+                    },
+                    "shape-*::layer1-*::layer2-*::layer3-*::layer4-*": {
+                        "pattern": {
+                            "base": "capes:item/cape/pattern/{layer1}",
+                            "blendedOverlays": [
+                                //
+                                { "base": "capes:item/cape/pattern/{layer2}" },
+                                { "base": "capes:item/cape/pattern/{layer3}" },
+                                { "base": "capes:item/cape/pattern/{layer4}" },
+                                { "base": "capes:item/cape/shapepattern/{shape}", "blendMode": "OverlayCutout" }
+                            ]
+                        }
+                    },
+                    "shape-*::layer1-*::layer2-*::layer3-*": {
+                        "pattern": {
+                            "base": "capes:item/cape/pattern/{layer1}",
+                            "blendedOverlays": [
+                                //
+                                { "base": "capes:item/cape/pattern/{layer2}" },
+                                { "base": "capes:item/cape/pattern/{layer3}" },
+                                { "base": "capes:item/cape/shapepattern/{shape}", "blendMode": "OverlayCutout" }
+                            ]
+                        }
+                    },
+                    "shape-*::layer1-*::layer2-*": {
+                        "pattern": {
+                            "base": "capes:item/cape/pattern/{layer1}",
+                            "blendedOverlays": [
+                                //
+                                { "base": "capes:item/cape/pattern/{layer2}" },
+                                { "base": "capes:item/cape/shapepattern/{shape}", "blendMode": "OverlayCutout" }
+                            ]
+                        }
+                    },
+                    "shape-*::layer1-*": {
+                        "pattern": {
+                            "base": "capes:item/cape/pattern/{layer1}",
+                            "blendedOverlays": [
+                                //
+                                { "base": "capes:item/cape/shapepattern/{shape}", "blendMode": "OverlayCutout" }
+                            ]
+                        }
+                    },
                     "layer1-*::layer2-*::layer3-*::layer4-*::layer5-*::layer6-*::layer7-*::layer8-*": {
                         "pattern": {
                             "base": "capes:item/cape/pattern/{layer1}",
@@ -318,17 +568,9 @@
                     "layer1-*": {
                         "pattern": { "base": "capes:item/cape/pattern/{layer1}" }
                     }
-                },
-                "STFA_attachableToEntity": {
-                    "attachedShapeBySlotCode": {
-                        "*": {
-                            "*": { "base": "capes:item/cape-normal" }
-                        }
-                    }
                 }
             }
-        },
-        { "name": "Heraldry.EquipClothing" }
+        }
     ],
     "shape": { "base": "capes:item/cape-normal" },
     "textures": {
@@ -351,14 +593,30 @@
                 { "type": "item", "code": "cape", "attributes": { "types": { "layer1": "color_purple" } } },
                 { "type": "item", "code": "cape", "attributes": { "types": { "layer1": "color_red" } } },
                 { "type": "item", "code": "cape", "attributes": { "types": { "layer1": "color_white" } } },
-                { "type": "item", "code": "cape", "attributes": { "types": { "layer1": "color_yellow" } } }
+                { "type": "item", "code": "cape", "attributes": { "types": { "layer1": "color_yellow" } } },
+
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "pennant", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "swallowtail_pennant", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "tapering_pennant", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "swallowtail", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "double_swallowtail", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "gonfalon", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "double_notched", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "quadruple_notched", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "roundcorners", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "rounded_notch", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "aged1", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "aged2", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "aged3", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "aged4", "layer1": "color_plain" } } },
+                { "type": "item", "code": "cape", "attributes": { "types": { "shape": "aged5", "layer1": "color_plain" } } }
             ]
         }
     ],
     "maxStackSize": 1,
     "guiTransform": {
         "rotation": { "x": 180, "y": 120, "z": 0 },
-        "origin": { "x": 0.5, "y": -0.4, "z": 0.25 },
+        "origin": { "x": 0.5, "y": 0.8, "z": 0.25 },
         "scaleXyz": { "x": -1, "y": 1, "z": 1 }
     },
     "tpHandTransform": {
